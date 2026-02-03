@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20252.25.1003.1601                               -->
-<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AnimationOnByDefault />
     <MarkAnimation />
@@ -13,16 +13,1597 @@
     <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='pl_21_25_analysis' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
+    <datasource caption='v_style_clustering_input' inline='true' name='federated.110f3ed093dhtf11l62i81r0qmaf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='v_style_clustering_input' name='textscan.17r79yh03f8bkq1760kvc1jb9g45'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau/v_style_clustering_input.csv' dataRefreshTime='' directory='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau' filename='C:/Users/tozes/AppData/Local/Temp/TableauTemp/0w5wg6b04ig01b1ceq2qb061qjd3/v_style_clustering_input.csv.xlsx' interpretationMode='8' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.17r79yh03f8bkq1760kvc1jb9g45' name='v_style_clustering_input.csv' table='[C:\Users\tozes\Documents\IronHack\pl_21-25_analysis\data_processed\tableau\v_style_clustering_input#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:BB81:no:A1:BB81:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='season_id' ordinal='0' />
+            <column datatype='string' name='season' ordinal='1' />
+            <column datatype='integer' name='team_id' ordinal='2' />
+            <column datatype='string' name='team_name' ordinal='3' />
+            <column datatype='integer' name='matches_played' ordinal='4' />
+            <column datatype='real' name='possession' ordinal='5' />
+            <column datatype='real' name='field_tilt' ordinal='6' />
+            <column datatype='real' name='game_control_share' ordinal='7' />
+            <column datatype='real' name='ppda' ordinal='8' />
+            <column datatype='real' name='high_recoveries' ordinal='9' />
+            <column datatype='real' name='on_ball_pressure_share' ordinal='10' />
+            <column datatype='real' name='off_ball_pressure_share' ordinal='11' />
+            <column datatype='real' name='xt' ordinal='12' />
+            <column datatype='real' name='passes_into_box' ordinal='13' />
+            <column datatype='real' name='shots_per_1_0_xt' ordinal='14' />
+            <column datatype='real' name='avg_pass_height' ordinal='15' />
+            <column datatype='real' name='crosses' ordinal='16' />
+            <column datatype='real' name='set_piece_xg' ordinal='17' />
+            <column datatype='real' name='corners' ordinal='18' />
+            <column datatype='real' name='throw_ins_into_box' ordinal='19' />
+            <column datatype='real' name='xgd' ordinal='20' />
+            <column datatype='real' name='ppda_inv' ordinal='21' />
+            <column datatype='real' name='z_possession' ordinal='22' />
+            <column datatype='real' name='z_field_tilt' ordinal='23' />
+            <column datatype='real' name='z_game_control_share' ordinal='24' />
+            <column datatype='real' name='z_ppda_inv' ordinal='25' />
+            <column datatype='real' name='z_high_recoveries' ordinal='26' />
+            <column datatype='real' name='z_on_ball_pressure_share' ordinal='27' />
+            <column datatype='real' name='z_off_ball_pressure_share' ordinal='28' />
+            <column datatype='real' name='z_xt' ordinal='29' />
+            <column datatype='real' name='z_passes_into_box' ordinal='30' />
+            <column datatype='real' name='z_shots_per_1_0_xt' ordinal='31' />
+            <column datatype='real' name='z_avg_pass_height' ordinal='32' />
+            <column datatype='real' name='z_crosses' ordinal='33' />
+            <column datatype='real' name='z_set_piece_xg' ordinal='34' />
+            <column datatype='real' name='z_corners' ordinal='35' />
+            <column datatype='real' name='z_throw_ins_into_box' ordinal='36' />
+            <column datatype='real' name='z_xgd' ordinal='37' />
+            <column datatype='real' name='pct_possession' ordinal='38' />
+            <column datatype='real' name='pct_field_tilt' ordinal='39' />
+            <column datatype='real' name='pct_game_control_share' ordinal='40' />
+            <column datatype='real' name='pct_ppda_inv' ordinal='41' />
+            <column datatype='real' name='pct_high_recoveries' ordinal='42' />
+            <column datatype='real' name='pct_on_ball_pressure_share' ordinal='43' />
+            <column datatype='real' name='pct_off_ball_pressure_share' ordinal='44' />
+            <column datatype='real' name='pct_xt' ordinal='45' />
+            <column datatype='real' name='pct_passes_into_box' ordinal='46' />
+            <column datatype='real' name='pct_shots_per_1_0_xt' ordinal='47' />
+            <column datatype='real' name='pct_avg_pass_height' ordinal='48' />
+            <column datatype='real' name='pct_crosses' ordinal='49' />
+            <column datatype='real' name='pct_set_piece_xg' ordinal='50' />
+            <column datatype='real' name='pct_corners' ordinal='51' />
+            <column datatype='real' name='pct_throw_ins_into_box' ordinal='52' />
+            <column datatype='real' name='pct_xgd' ordinal='53' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BB81:no:A1:BB81:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season_id]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>season_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team_id]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>team_id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_name]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>team_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>matches_played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[matches_played]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>matches_played</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[possession]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>possession</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>field_tilt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[field_tilt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>field_tilt</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_control_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[game_control_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>game_control_share</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ppda</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ppda]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>ppda</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>high_recoveries</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[high_recoveries]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>high_recoveries</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>on_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[on_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>on_ball_pressure_share</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>off_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[off_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>off_ball_pressure_share</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>xt</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>passes_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[passes_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>passes_into_box</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shots_per_1_0_xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[shots_per_1_0_xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>shots_per_1_0_xt</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_pass_height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_pass_height]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>avg_pass_height</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crosses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[crosses]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>crosses</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>set_piece_xg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[set_piece_xg]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>set_piece_xg</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corners</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[corners]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>corners</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>throw_ins_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[throw_ins_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>throw_ins_into_box</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xgd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xgd]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>xgd</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ppda_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ppda_inv]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>ppda_inv</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_possession]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_possession</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_field_tilt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_field_tilt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_field_tilt</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_game_control_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_game_control_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_game_control_share</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_ppda_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_ppda_inv]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_ppda_inv</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_high_recoveries</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_high_recoveries]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_high_recoveries</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_on_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_on_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_on_ball_pressure_share</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_off_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_off_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_off_ball_pressure_share</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_xt</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_passes_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_passes_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_passes_into_box</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_shots_per_1_0_xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_shots_per_1_0_xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_shots_per_1_0_xt</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_avg_pass_height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_avg_pass_height]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_avg_pass_height</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_crosses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_crosses]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_crosses</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_set_piece_xg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_set_piece_xg]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_set_piece_xg</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_corners</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_corners]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_corners</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_throw_ins_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_throw_ins_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_throw_ins_into_box</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>z_xgd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z_xgd]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>z_xgd</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_possession]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_possession</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_field_tilt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_field_tilt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_field_tilt</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_game_control_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_game_control_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_game_control_share</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_ppda_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_ppda_inv]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_ppda_inv</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_high_recoveries</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_high_recoveries]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_high_recoveries</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_on_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_on_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_on_ball_pressure_share</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_off_ball_pressure_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_off_ball_pressure_share]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_off_ball_pressure_share</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_xt</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_passes_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_passes_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_passes_into_box</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_shots_per_1_0_xt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_shots_per_1_0_xt]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_shots_per_1_0_xt</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_avg_pass_height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_avg_pass_height]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_avg_pass_height</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_crosses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_crosses]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_crosses</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_set_piece_xg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_set_piece_xg]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_set_piece_xg</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_corners</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_corners]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_corners</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_throw_ins_into_box</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_throw_ins_into_box]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_throw_ins_into_box</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_xgd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_xgd]</local-name>
+            <parent-name>[v_style_clustering_input.csv]</parent-name>
+            <remote-alias>pct_xgd</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='v_style_clustering_input.csv' datatype='table' name='[__tableau_internal_object_id__].[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/tozes/AppData/Local/Temp/TableauTemp/#TableauTemp_161p64h19oirz51dzb65m0ohithk.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/03/2026 09:34:58 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>season_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[season_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season</remote-alias>
+              <ordinal>1</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[team_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>team_id</remote-alias>
+              <ordinal>2</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>team_name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>matches_played</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[matches_played]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>matches_played</remote-alias>
+              <ordinal>4</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>possession</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[possession]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>possession</remote-alias>
+              <ordinal>5</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>field_tilt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[field_tilt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>field_tilt</remote-alias>
+              <ordinal>6</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>game_control_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[game_control_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>game_control_share</remote-alias>
+              <ordinal>7</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ppda</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ppda]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ppda</remote-alias>
+              <ordinal>8</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>high_recoveries</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[high_recoveries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>high_recoveries</remote-alias>
+              <ordinal>9</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>on_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[on_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>on_ball_pressure_share</remote-alias>
+              <ordinal>10</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>off_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[off_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>off_ball_pressure_share</remote-alias>
+              <ordinal>11</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>xt</remote-alias>
+              <ordinal>12</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>passes_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[passes_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>passes_into_box</remote-alias>
+              <ordinal>13</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>shots_per_1_0_xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[shots_per_1_0_xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shots_per_1_0_xt</remote-alias>
+              <ordinal>14</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_pass_height</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_pass_height]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_pass_height</remote-alias>
+              <ordinal>15</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>crosses</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[crosses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>crosses</remote-alias>
+              <ordinal>16</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>set_piece_xg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[set_piece_xg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>set_piece_xg</remote-alias>
+              <ordinal>17</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>corners</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[corners]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>corners</remote-alias>
+              <ordinal>18</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>throw_ins_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[throw_ins_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>throw_ins_into_box</remote-alias>
+              <ordinal>19</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>xgd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[xgd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>xgd</remote-alias>
+              <ordinal>20</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ppda_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ppda_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ppda_inv</remote-alias>
+              <ordinal>21</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_possession</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_possession]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_possession</remote-alias>
+              <ordinal>22</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_field_tilt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_field_tilt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_field_tilt</remote-alias>
+              <ordinal>23</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_game_control_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_game_control_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_game_control_share</remote-alias>
+              <ordinal>24</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_ppda_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_ppda_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_ppda_inv</remote-alias>
+              <ordinal>25</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_high_recoveries</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_high_recoveries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_high_recoveries</remote-alias>
+              <ordinal>26</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_on_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_on_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_on_ball_pressure_share</remote-alias>
+              <ordinal>27</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_off_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_off_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_off_ball_pressure_share</remote-alias>
+              <ordinal>28</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_xt</remote-alias>
+              <ordinal>29</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_passes_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_passes_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_passes_into_box</remote-alias>
+              <ordinal>30</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_shots_per_1_0_xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_shots_per_1_0_xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_shots_per_1_0_xt</remote-alias>
+              <ordinal>31</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_avg_pass_height</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_avg_pass_height]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_avg_pass_height</remote-alias>
+              <ordinal>32</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_crosses</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_crosses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_crosses</remote-alias>
+              <ordinal>33</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_set_piece_xg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_set_piece_xg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_set_piece_xg</remote-alias>
+              <ordinal>34</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_corners</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_corners]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_corners</remote-alias>
+              <ordinal>35</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_throw_ins_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_throw_ins_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_throw_ins_into_box</remote-alias>
+              <ordinal>36</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>z_xgd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[z_xgd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>z_xgd</remote-alias>
+              <ordinal>37</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_possession</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_possession]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_possession</remote-alias>
+              <ordinal>38</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_field_tilt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_field_tilt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_field_tilt</remote-alias>
+              <ordinal>39</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_game_control_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_game_control_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_game_control_share</remote-alias>
+              <ordinal>40</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_ppda_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_ppda_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_ppda_inv</remote-alias>
+              <ordinal>41</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_high_recoveries</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_high_recoveries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_high_recoveries</remote-alias>
+              <ordinal>42</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_on_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_on_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_on_ball_pressure_share</remote-alias>
+              <ordinal>43</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_off_ball_pressure_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_off_ball_pressure_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_off_ball_pressure_share</remote-alias>
+              <ordinal>44</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_xt</remote-alias>
+              <ordinal>45</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_passes_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_passes_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_passes_into_box</remote-alias>
+              <ordinal>46</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_shots_per_1_0_xt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_shots_per_1_0_xt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_shots_per_1_0_xt</remote-alias>
+              <ordinal>47</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_avg_pass_height</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_avg_pass_height]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_avg_pass_height</remote-alias>
+              <ordinal>48</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_crosses</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_crosses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_crosses</remote-alias>
+              <ordinal>49</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_set_piece_xg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_set_piece_xg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_set_piece_xg</remote-alias>
+              <ordinal>50</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_corners</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_corners]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_corners</remote-alias>
+              <ordinal>51</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_throw_ins_into_box</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_throw_ins_into_box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_throw_ins_into_box</remote-alias>
+              <ordinal>52</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pct_xgd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pct_xgd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pct_xgd</remote-alias>
+              <ordinal>53</ordinal>
+              <family>v_style_clustering_input.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='v_style_clustering_input.csv' id='v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B'>
+            <properties context=''>
+              <relation connection='textscan.17r79yh03f8bkq1760kvc1jb9g45' name='v_style_clustering_input.csv' table='[C:\Users\tozes\Documents\IronHack\pl_21-25_analysis\data_processed\tableau\v_style_clustering_input#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:BB81:no:A1:BB81:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='season_id' ordinal='0' />
+                  <column datatype='string' name='season' ordinal='1' />
+                  <column datatype='integer' name='team_id' ordinal='2' />
+                  <column datatype='string' name='team_name' ordinal='3' />
+                  <column datatype='integer' name='matches_played' ordinal='4' />
+                  <column datatype='real' name='possession' ordinal='5' />
+                  <column datatype='real' name='field_tilt' ordinal='6' />
+                  <column datatype='real' name='game_control_share' ordinal='7' />
+                  <column datatype='real' name='ppda' ordinal='8' />
+                  <column datatype='real' name='high_recoveries' ordinal='9' />
+                  <column datatype='real' name='on_ball_pressure_share' ordinal='10' />
+                  <column datatype='real' name='off_ball_pressure_share' ordinal='11' />
+                  <column datatype='real' name='xt' ordinal='12' />
+                  <column datatype='real' name='passes_into_box' ordinal='13' />
+                  <column datatype='real' name='shots_per_1_0_xt' ordinal='14' />
+                  <column datatype='real' name='avg_pass_height' ordinal='15' />
+                  <column datatype='real' name='crosses' ordinal='16' />
+                  <column datatype='real' name='set_piece_xg' ordinal='17' />
+                  <column datatype='real' name='corners' ordinal='18' />
+                  <column datatype='real' name='throw_ins_into_box' ordinal='19' />
+                  <column datatype='real' name='xgd' ordinal='20' />
+                  <column datatype='real' name='ppda_inv' ordinal='21' />
+                  <column datatype='real' name='z_possession' ordinal='22' />
+                  <column datatype='real' name='z_field_tilt' ordinal='23' />
+                  <column datatype='real' name='z_game_control_share' ordinal='24' />
+                  <column datatype='real' name='z_ppda_inv' ordinal='25' />
+                  <column datatype='real' name='z_high_recoveries' ordinal='26' />
+                  <column datatype='real' name='z_on_ball_pressure_share' ordinal='27' />
+                  <column datatype='real' name='z_off_ball_pressure_share' ordinal='28' />
+                  <column datatype='real' name='z_xt' ordinal='29' />
+                  <column datatype='real' name='z_passes_into_box' ordinal='30' />
+                  <column datatype='real' name='z_shots_per_1_0_xt' ordinal='31' />
+                  <column datatype='real' name='z_avg_pass_height' ordinal='32' />
+                  <column datatype='real' name='z_crosses' ordinal='33' />
+                  <column datatype='real' name='z_set_piece_xg' ordinal='34' />
+                  <column datatype='real' name='z_corners' ordinal='35' />
+                  <column datatype='real' name='z_throw_ins_into_box' ordinal='36' />
+                  <column datatype='real' name='z_xgd' ordinal='37' />
+                  <column datatype='real' name='pct_possession' ordinal='38' />
+                  <column datatype='real' name='pct_field_tilt' ordinal='39' />
+                  <column datatype='real' name='pct_game_control_share' ordinal='40' />
+                  <column datatype='real' name='pct_ppda_inv' ordinal='41' />
+                  <column datatype='real' name='pct_high_recoveries' ordinal='42' />
+                  <column datatype='real' name='pct_on_ball_pressure_share' ordinal='43' />
+                  <column datatype='real' name='pct_off_ball_pressure_share' ordinal='44' />
+                  <column datatype='real' name='pct_xt' ordinal='45' />
+                  <column datatype='real' name='pct_passes_into_box' ordinal='46' />
+                  <column datatype='real' name='pct_shots_per_1_0_xt' ordinal='47' />
+                  <column datatype='real' name='pct_avg_pass_height' ordinal='48' />
+                  <column datatype='real' name='pct_crosses' ordinal='49' />
+                  <column datatype='real' name='pct_set_piece_xg' ordinal='50' />
+                  <column datatype='real' name='pct_corners' ordinal='51' />
+                  <column datatype='real' name='pct_throw_ins_into_box' ordinal='52' />
+                  <column datatype='real' name='pct_xgd' ordinal='53' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
     <datasource caption='v_team_match_enriched' inline='true' name='federated.1duvdqf012wv041e9v8gg0k0jxo3' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='v_team_match_enriched' name='textscan.0xfwb5w1oclhwc10v4i2h1j94nq0'>
-            <connection class='textscan' directory='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau' filename='v_team_match_enriched.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau' filename='v_team_match_enriched.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.0xfwb5w1oclhwc10v4i2h1j94nq0' name='v_team_match_enriched.csv' table='[v_team_match_enriched#csv]' type='table'>
@@ -849,6 +2430,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>season</remote-name>
@@ -863,6 +2445,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>match_id</remote-name>
@@ -877,6 +2460,7 @@
               <approx-count>1381</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>match_date</remote-name>
@@ -890,6 +2474,7 @@
               <aggregation>Year</aggregation>
               <approx-count>464</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>match_label</remote-name>
@@ -904,6 +2489,7 @@
               <approx-count>1283</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>home_team_id</remote-name>
@@ -917,6 +2503,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>home_team_name</remote-name>
@@ -931,6 +2518,7 @@
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>away_team_id</remote-name>
@@ -944,6 +2532,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>away_team_name</remote-name>
@@ -958,6 +2547,7 @@
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>home_goals</remote-name>
@@ -971,6 +2561,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>away_goals</remote-name>
@@ -984,6 +2575,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>team_id</remote-name>
@@ -997,6 +2589,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>team_name</remote-name>
@@ -1011,6 +2604,7 @@
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>opponent_team_id</remote-name>
@@ -1024,6 +2618,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>opponent_team_name</remote-name>
@@ -1038,6 +2633,7 @@
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>is_home</remote-name>
@@ -1051,6 +2647,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>goals_for</remote-name>
@@ -1064,6 +2661,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>goals_against</remote-name>
@@ -1077,6 +2675,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>result</remote-name>
@@ -1091,6 +2690,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>points</remote-name>
@@ -1104,6 +2704,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xg</remote-name>
@@ -1117,6 +2718,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>428</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xga</remote-name>
@@ -1130,6 +2732,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>428</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xgd</remote-name>
@@ -1143,6 +2746,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>665</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>open_play_xg</remote-name>
@@ -1156,6 +2760,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>387</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>open_play_xga</remote-name>
@@ -1169,6 +2774,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>382</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>open_play_xgd</remote-name>
@@ -1182,6 +2788,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>611</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>set_piece_xg</remote-name>
@@ -1195,6 +2802,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>131</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>set_piece_xga</remote-name>
@@ -1208,6 +2816,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>138</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>set_piece_xgd</remote-name>
@@ -1221,6 +2830,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>247</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>npxg</remote-name>
@@ -1234,6 +2844,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>406</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>npxga</remote-name>
@@ -1247,6 +2858,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>401</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>npxgd</remote-name>
@@ -1260,6 +2872,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>641</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>possession</remote-name>
@@ -1273,6 +2886,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>563</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>field_tilt</remote-name>
@@ -1286,6 +2900,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1679</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>game_control</remote-name>
@@ -1299,6 +2914,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1761</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>game_control_share</remote-name>
@@ -1312,6 +2928,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1789</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ppda</remote-name>
@@ -1325,6 +2942,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1138</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>high_recoveries</remote-name>
@@ -1338,6 +2956,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>high_recoveries_against</remote-name>
@@ -1351,6 +2970,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>on_ball_pressure</remote-name>
@@ -1364,6 +2984,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1369</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>on_ball_pressure_share</remote-name>
@@ -1377,6 +2998,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1825</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>off_ball_pressure</remote-name>
@@ -1390,6 +3012,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1336</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>off_ball_pressure_share</remote-name>
@@ -1403,6 +3026,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1851</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>avg_pass_height</remote-name>
@@ -1416,6 +3040,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1250</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>crosses</remote-name>
@@ -1429,6 +3054,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>49</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xt</remote-name>
@@ -1442,6 +3068,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>193</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xt_against</remote-name>
@@ -1455,6 +3082,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>201</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xt_diff</remote-name>
@@ -1468,6 +3096,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>564</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>passes_in_opposition_half</remote-name>
@@ -1481,6 +3110,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>447</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>passes_into_box</remote-name>
@@ -1494,6 +3124,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>44</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shots</remote-name>
@@ -1507,6 +3138,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shots_faced</remote-name>
@@ -1520,6 +3152,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>39</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shots_per_1_0_xt</remote-name>
@@ -1533,6 +3166,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>834</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shots_faced_per_1_0_xt_against</remote-name>
@@ -1546,6 +3180,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>851</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shot_quality</remote-name>
@@ -1559,6 +3194,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1122</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shot_quality_conceded</remote-name>
@@ -1572,6 +3208,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1188</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>corners</remote-name>
@@ -1585,6 +3222,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>22</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>throw_ins_into_box</remote-name>
@@ -1598,6 +3236,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[v_team_match_enriched.csv_58FFAEE727324F2D9611EEE7E59E7947]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1670,1532 +3309,6 @@
                   <column datatype='real' name='shot_quality_conceded' ordinal='55' />
                   <column datatype='integer' name='corners' ordinal='56' />
                   <column datatype='integer' name='throw_ins_into_box' ordinal='57' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
-    <datasource caption='v_style_clustering_input' inline='true' name='federated.110f3ed093dhtf11l62i81r0qmaf' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='v_style_clustering_input' name='textscan.17r79yh03f8bkq1760kvc1jb9g45'>
-            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau/v_style_clustering_input.csv' dataRefreshTime='' directory='C:/Users/tozes/Documents/IronHack/pl_21-25_analysis/data_processed/tableau' filename='C:/Users/tozes/AppData/Local/Temp/TableauTemp/0w5wg6b04ig01b1ceq2qb061qjd3/v_style_clustering_input.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.17r79yh03f8bkq1760kvc1jb9g45' name='v_style_clustering_input.csv' table='[C:\Users\tozes\Documents\IronHack\pl_21-25_analysis\data_processed\tableau\v_style_clustering_input#csv]' type='table'>
-          <columns character-set='UTF-8' gridOrigin='A1:BB81:no:A1:BB81:1' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='season_id' ordinal='0' />
-            <column datatype='string' name='season' ordinal='1' />
-            <column datatype='integer' name='team_id' ordinal='2' />
-            <column datatype='string' name='team_name' ordinal='3' />
-            <column datatype='integer' name='matches_played' ordinal='4' />
-            <column datatype='real' name='possession' ordinal='5' />
-            <column datatype='real' name='field_tilt' ordinal='6' />
-            <column datatype='real' name='game_control_share' ordinal='7' />
-            <column datatype='real' name='ppda' ordinal='8' />
-            <column datatype='real' name='high_recoveries' ordinal='9' />
-            <column datatype='real' name='on_ball_pressure_share' ordinal='10' />
-            <column datatype='real' name='off_ball_pressure_share' ordinal='11' />
-            <column datatype='real' name='xt' ordinal='12' />
-            <column datatype='real' name='passes_into_box' ordinal='13' />
-            <column datatype='real' name='shots_per_1_0_xt' ordinal='14' />
-            <column datatype='real' name='avg_pass_height' ordinal='15' />
-            <column datatype='real' name='crosses' ordinal='16' />
-            <column datatype='real' name='set_piece_xg' ordinal='17' />
-            <column datatype='real' name='corners' ordinal='18' />
-            <column datatype='real' name='throw_ins_into_box' ordinal='19' />
-            <column datatype='real' name='xgd' ordinal='20' />
-            <column datatype='real' name='ppda_inv' ordinal='21' />
-            <column datatype='real' name='z_possession' ordinal='22' />
-            <column datatype='real' name='z_field_tilt' ordinal='23' />
-            <column datatype='real' name='z_game_control_share' ordinal='24' />
-            <column datatype='real' name='z_ppda_inv' ordinal='25' />
-            <column datatype='real' name='z_high_recoveries' ordinal='26' />
-            <column datatype='real' name='z_on_ball_pressure_share' ordinal='27' />
-            <column datatype='real' name='z_off_ball_pressure_share' ordinal='28' />
-            <column datatype='real' name='z_xt' ordinal='29' />
-            <column datatype='real' name='z_passes_into_box' ordinal='30' />
-            <column datatype='real' name='z_shots_per_1_0_xt' ordinal='31' />
-            <column datatype='real' name='z_avg_pass_height' ordinal='32' />
-            <column datatype='real' name='z_crosses' ordinal='33' />
-            <column datatype='real' name='z_set_piece_xg' ordinal='34' />
-            <column datatype='real' name='z_corners' ordinal='35' />
-            <column datatype='real' name='z_throw_ins_into_box' ordinal='36' />
-            <column datatype='real' name='z_xgd' ordinal='37' />
-            <column datatype='real' name='pct_possession' ordinal='38' />
-            <column datatype='real' name='pct_field_tilt' ordinal='39' />
-            <column datatype='real' name='pct_game_control_share' ordinal='40' />
-            <column datatype='real' name='pct_ppda_inv' ordinal='41' />
-            <column datatype='real' name='pct_high_recoveries' ordinal='42' />
-            <column datatype='real' name='pct_on_ball_pressure_share' ordinal='43' />
-            <column datatype='real' name='pct_off_ball_pressure_share' ordinal='44' />
-            <column datatype='real' name='pct_xt' ordinal='45' />
-            <column datatype='real' name='pct_passes_into_box' ordinal='46' />
-            <column datatype='real' name='pct_shots_per_1_0_xt' ordinal='47' />
-            <column datatype='real' name='pct_avg_pass_height' ordinal='48' />
-            <column datatype='real' name='pct_crosses' ordinal='49' />
-            <column datatype='real' name='pct_set_piece_xg' ordinal='50' />
-            <column datatype='real' name='pct_corners' ordinal='51' />
-            <column datatype='real' name='pct_throw_ins_into_box' ordinal='52' />
-            <column datatype='real' name='pct_xgd' ordinal='53' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:BB81:no:A1:BB81:1&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>season_id</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[season_id]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>season_id</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>season</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[season]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>season</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>team_id</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[team_id]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>team_id</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>team_name</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[team_name]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>team_name</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>matches_played</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[matches_played]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>matches_played</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>possession</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[possession]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>possession</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>field_tilt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[field_tilt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>field_tilt</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>game_control_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[game_control_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>game_control_share</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ppda</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ppda]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>ppda</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>high_recoveries</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[high_recoveries]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>high_recoveries</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>on_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[on_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>on_ball_pressure_share</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>off_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[off_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>off_ball_pressure_share</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>xt</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>passes_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[passes_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>passes_into_box</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>shots_per_1_0_xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[shots_per_1_0_xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>shots_per_1_0_xt</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>avg_pass_height</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[avg_pass_height]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>avg_pass_height</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>crosses</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[crosses]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>crosses</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>set_piece_xg</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[set_piece_xg]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>set_piece_xg</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>corners</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[corners]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>corners</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>throw_ins_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[throw_ins_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>throw_ins_into_box</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>xgd</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[xgd]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>xgd</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ppda_inv</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ppda_inv]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>ppda_inv</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_possession</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_possession]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_possession</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_field_tilt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_field_tilt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_field_tilt</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_game_control_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_game_control_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_game_control_share</remote-alias>
-            <ordinal>24</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_ppda_inv</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_ppda_inv]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_ppda_inv</remote-alias>
-            <ordinal>25</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_high_recoveries</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_high_recoveries]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_high_recoveries</remote-alias>
-            <ordinal>26</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_on_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_on_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_on_ball_pressure_share</remote-alias>
-            <ordinal>27</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_off_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_off_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_off_ball_pressure_share</remote-alias>
-            <ordinal>28</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_xt</remote-alias>
-            <ordinal>29</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_passes_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_passes_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_passes_into_box</remote-alias>
-            <ordinal>30</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_shots_per_1_0_xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_shots_per_1_0_xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_shots_per_1_0_xt</remote-alias>
-            <ordinal>31</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_avg_pass_height</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_avg_pass_height]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_avg_pass_height</remote-alias>
-            <ordinal>32</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_crosses</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_crosses]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_crosses</remote-alias>
-            <ordinal>33</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_set_piece_xg</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_set_piece_xg]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_set_piece_xg</remote-alias>
-            <ordinal>34</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_corners</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_corners]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_corners</remote-alias>
-            <ordinal>35</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_throw_ins_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_throw_ins_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_throw_ins_into_box</remote-alias>
-            <ordinal>36</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>z_xgd</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[z_xgd]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>z_xgd</remote-alias>
-            <ordinal>37</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_possession</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_possession]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_possession</remote-alias>
-            <ordinal>38</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_field_tilt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_field_tilt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_field_tilt</remote-alias>
-            <ordinal>39</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_game_control_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_game_control_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_game_control_share</remote-alias>
-            <ordinal>40</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_ppda_inv</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_ppda_inv]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_ppda_inv</remote-alias>
-            <ordinal>41</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_high_recoveries</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_high_recoveries]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_high_recoveries</remote-alias>
-            <ordinal>42</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_on_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_on_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_on_ball_pressure_share</remote-alias>
-            <ordinal>43</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_off_ball_pressure_share</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_off_ball_pressure_share]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_off_ball_pressure_share</remote-alias>
-            <ordinal>44</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_xt</remote-alias>
-            <ordinal>45</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_passes_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_passes_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_passes_into_box</remote-alias>
-            <ordinal>46</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_shots_per_1_0_xt</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_shots_per_1_0_xt]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_shots_per_1_0_xt</remote-alias>
-            <ordinal>47</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_avg_pass_height</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_avg_pass_height]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_avg_pass_height</remote-alias>
-            <ordinal>48</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_crosses</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_crosses]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_crosses</remote-alias>
-            <ordinal>49</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_set_piece_xg</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_set_piece_xg]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_set_piece_xg</remote-alias>
-            <ordinal>50</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_corners</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_corners]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_corners</remote-alias>
-            <ordinal>51</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_throw_ins_into_box</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_throw_ins_into_box]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_throw_ins_into_box</remote-alias>
-            <ordinal>52</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pct_xgd</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[pct_xgd]</local-name>
-            <parent-name>[v_style_clustering_input.csv]</parent-name>
-            <remote-alias>pct_xgd</remote-alias>
-            <ordinal>53</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='v_style_clustering_input.csv' datatype='table' name='[__tableau_internal_object_id__].[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]' role='measure' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/tozes/AppData/Local/Temp/TableauTemp/#TableauTemp_161p64h19oirz51dzb65m0ohithk.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/03/2026 09:34:58 PM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>season_id</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[season_id]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>season_id</remote-alias>
-              <ordinal>0</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>season</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[season]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>season</remote-alias>
-              <ordinal>1</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>team_id</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[team_id]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>team_id</remote-alias>
-              <ordinal>2</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>26</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>team_name</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[team_name]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>team_name</remote-alias>
-              <ordinal>3</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>26</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>matches_played</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[matches_played]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>matches_played</remote-alias>
-              <ordinal>4</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>possession</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[possession]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>possession</remote-alias>
-              <ordinal>5</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>field_tilt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[field_tilt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>field_tilt</remote-alias>
-              <ordinal>6</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>game_control_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[game_control_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>game_control_share</remote-alias>
-              <ordinal>7</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ppda</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ppda]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>ppda</remote-alias>
-              <ordinal>8</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>high_recoveries</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[high_recoveries]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>high_recoveries</remote-alias>
-              <ordinal>9</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>68</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>on_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[on_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>on_ball_pressure_share</remote-alias>
-              <ordinal>10</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>off_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[off_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>off_ball_pressure_share</remote-alias>
-              <ordinal>11</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>xt</remote-alias>
-              <ordinal>12</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>passes_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[passes_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>passes_into_box</remote-alias>
-              <ordinal>13</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>74</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>shots_per_1_0_xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[shots_per_1_0_xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>shots_per_1_0_xt</remote-alias>
-              <ordinal>14</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>avg_pass_height</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[avg_pass_height]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>avg_pass_height</remote-alias>
-              <ordinal>15</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>crosses</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[crosses]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>crosses</remote-alias>
-              <ordinal>16</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>73</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>set_piece_xg</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[set_piece_xg]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>set_piece_xg</remote-alias>
-              <ordinal>17</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>corners</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[corners]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>corners</remote-alias>
-              <ordinal>18</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>65</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>throw_ins_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[throw_ins_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>throw_ins_into_box</remote-alias>
-              <ordinal>19</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>47</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>xgd</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[xgd]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>xgd</remote-alias>
-              <ordinal>20</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ppda_inv</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ppda_inv]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>ppda_inv</remote-alias>
-              <ordinal>21</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_possession</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_possession]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_possession</remote-alias>
-              <ordinal>22</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_field_tilt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_field_tilt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_field_tilt</remote-alias>
-              <ordinal>23</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_game_control_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_game_control_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_game_control_share</remote-alias>
-              <ordinal>24</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_ppda_inv</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_ppda_inv]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_ppda_inv</remote-alias>
-              <ordinal>25</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_high_recoveries</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_high_recoveries]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_high_recoveries</remote-alias>
-              <ordinal>26</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>76</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_on_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_on_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_on_ball_pressure_share</remote-alias>
-              <ordinal>27</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_off_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_off_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_off_ball_pressure_share</remote-alias>
-              <ordinal>28</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_xt</remote-alias>
-              <ordinal>29</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_passes_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_passes_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_passes_into_box</remote-alias>
-              <ordinal>30</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>78</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_shots_per_1_0_xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_shots_per_1_0_xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_shots_per_1_0_xt</remote-alias>
-              <ordinal>31</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_avg_pass_height</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_avg_pass_height]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_avg_pass_height</remote-alias>
-              <ordinal>32</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_crosses</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_crosses]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_crosses</remote-alias>
-              <ordinal>33</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>78</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_set_piece_xg</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_set_piece_xg]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_set_piece_xg</remote-alias>
-              <ordinal>34</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_corners</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_corners]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_corners</remote-alias>
-              <ordinal>35</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>77</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_throw_ins_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_throw_ins_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_throw_ins_into_box</remote-alias>
-              <ordinal>36</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>71</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>z_xgd</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[z_xgd]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>z_xgd</remote-alias>
-              <ordinal>37</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>80</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_possession</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_possession]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_possession</remote-alias>
-              <ordinal>38</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_field_tilt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_field_tilt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_field_tilt</remote-alias>
-              <ordinal>39</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_game_control_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_game_control_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_game_control_share</remote-alias>
-              <ordinal>40</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_ppda_inv</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_ppda_inv]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_ppda_inv</remote-alias>
-              <ordinal>41</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_high_recoveries</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_high_recoveries]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_high_recoveries</remote-alias>
-              <ordinal>42</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_on_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_on_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_on_ball_pressure_share</remote-alias>
-              <ordinal>43</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_off_ball_pressure_share</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_off_ball_pressure_share]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_off_ball_pressure_share</remote-alias>
-              <ordinal>44</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_xt</remote-alias>
-              <ordinal>45</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_passes_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_passes_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_passes_into_box</remote-alias>
-              <ordinal>46</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_shots_per_1_0_xt</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_shots_per_1_0_xt]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_shots_per_1_0_xt</remote-alias>
-              <ordinal>47</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_avg_pass_height</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_avg_pass_height]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_avg_pass_height</remote-alias>
-              <ordinal>48</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_crosses</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_crosses]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_crosses</remote-alias>
-              <ordinal>49</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_set_piece_xg</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_set_piece_xg]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_set_piece_xg</remote-alias>
-              <ordinal>50</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_corners</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_corners]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_corners</remote-alias>
-              <ordinal>51</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_throw_ins_into_box</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_throw_ins_into_box]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_throw_ins_into_box</remote-alias>
-              <ordinal>52</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>pct_xgd</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[pct_xgd]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>pct_xgd</remote-alias>
-              <ordinal>53</ordinal>
-              <family>v_style_clustering_input.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
-      </semantic-values>
-      <object-graph>
-        <objects>
-          <object caption='v_style_clustering_input.csv' id='v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B'>
-            <properties context=''>
-              <relation connection='textscan.17r79yh03f8bkq1760kvc1jb9g45' name='v_style_clustering_input.csv' table='[C:\Users\tozes\Documents\IronHack\pl_21-25_analysis\data_processed\tableau\v_style_clustering_input#csv]' type='table'>
-                <columns character-set='UTF-8' gridOrigin='A1:BB81:no:A1:BB81:1' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='season_id' ordinal='0' />
-                  <column datatype='string' name='season' ordinal='1' />
-                  <column datatype='integer' name='team_id' ordinal='2' />
-                  <column datatype='string' name='team_name' ordinal='3' />
-                  <column datatype='integer' name='matches_played' ordinal='4' />
-                  <column datatype='real' name='possession' ordinal='5' />
-                  <column datatype='real' name='field_tilt' ordinal='6' />
-                  <column datatype='real' name='game_control_share' ordinal='7' />
-                  <column datatype='real' name='ppda' ordinal='8' />
-                  <column datatype='real' name='high_recoveries' ordinal='9' />
-                  <column datatype='real' name='on_ball_pressure_share' ordinal='10' />
-                  <column datatype='real' name='off_ball_pressure_share' ordinal='11' />
-                  <column datatype='real' name='xt' ordinal='12' />
-                  <column datatype='real' name='passes_into_box' ordinal='13' />
-                  <column datatype='real' name='shots_per_1_0_xt' ordinal='14' />
-                  <column datatype='real' name='avg_pass_height' ordinal='15' />
-                  <column datatype='real' name='crosses' ordinal='16' />
-                  <column datatype='real' name='set_piece_xg' ordinal='17' />
-                  <column datatype='real' name='corners' ordinal='18' />
-                  <column datatype='real' name='throw_ins_into_box' ordinal='19' />
-                  <column datatype='real' name='xgd' ordinal='20' />
-                  <column datatype='real' name='ppda_inv' ordinal='21' />
-                  <column datatype='real' name='z_possession' ordinal='22' />
-                  <column datatype='real' name='z_field_tilt' ordinal='23' />
-                  <column datatype='real' name='z_game_control_share' ordinal='24' />
-                  <column datatype='real' name='z_ppda_inv' ordinal='25' />
-                  <column datatype='real' name='z_high_recoveries' ordinal='26' />
-                  <column datatype='real' name='z_on_ball_pressure_share' ordinal='27' />
-                  <column datatype='real' name='z_off_ball_pressure_share' ordinal='28' />
-                  <column datatype='real' name='z_xt' ordinal='29' />
-                  <column datatype='real' name='z_passes_into_box' ordinal='30' />
-                  <column datatype='real' name='z_shots_per_1_0_xt' ordinal='31' />
-                  <column datatype='real' name='z_avg_pass_height' ordinal='32' />
-                  <column datatype='real' name='z_crosses' ordinal='33' />
-                  <column datatype='real' name='z_set_piece_xg' ordinal='34' />
-                  <column datatype='real' name='z_corners' ordinal='35' />
-                  <column datatype='real' name='z_throw_ins_into_box' ordinal='36' />
-                  <column datatype='real' name='z_xgd' ordinal='37' />
-                  <column datatype='real' name='pct_possession' ordinal='38' />
-                  <column datatype='real' name='pct_field_tilt' ordinal='39' />
-                  <column datatype='real' name='pct_game_control_share' ordinal='40' />
-                  <column datatype='real' name='pct_ppda_inv' ordinal='41' />
-                  <column datatype='real' name='pct_high_recoveries' ordinal='42' />
-                  <column datatype='real' name='pct_on_ball_pressure_share' ordinal='43' />
-                  <column datatype='real' name='pct_off_ball_pressure_share' ordinal='44' />
-                  <column datatype='real' name='pct_xt' ordinal='45' />
-                  <column datatype='real' name='pct_passes_into_box' ordinal='46' />
-                  <column datatype='real' name='pct_shots_per_1_0_xt' ordinal='47' />
-                  <column datatype='real' name='pct_avg_pass_height' ordinal='48' />
-                  <column datatype='real' name='pct_crosses' ordinal='49' />
-                  <column datatype='real' name='pct_set_piece_xg' ordinal='50' />
-                  <column datatype='real' name='pct_corners' ordinal='51' />
-                  <column datatype='real' name='pct_throw_ins_into_box' ordinal='52' />
-                  <column datatype='real' name='pct_xgd' ordinal='53' />
                 </columns>
               </relation>
             </properties>
