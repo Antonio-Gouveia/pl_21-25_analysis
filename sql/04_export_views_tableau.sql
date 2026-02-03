@@ -1,0 +1,1 @@
+SELECT * FROM v_team_match_enriched;
