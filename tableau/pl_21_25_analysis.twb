@@ -776,7 +776,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>season</remote-name>
@@ -791,7 +790,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>team_id</remote-name>
@@ -805,7 +803,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>team_name</remote-name>
@@ -820,7 +817,6 @@
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>matches_played</remote-name>
@@ -834,7 +830,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>possession</remote-name>
@@ -848,7 +843,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>field_tilt</remote-name>
@@ -862,7 +856,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>game_control_share</remote-name>
@@ -876,7 +869,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ppda</remote-name>
@@ -890,7 +882,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>high_recoveries</remote-name>
@@ -904,7 +895,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>68</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>on_ball_pressure_share</remote-name>
@@ -918,7 +908,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>off_ball_pressure_share</remote-name>
@@ -932,7 +921,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xt</remote-name>
@@ -946,7 +934,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>passes_into_box</remote-name>
@@ -960,7 +947,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>74</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>shots_per_1_0_xt</remote-name>
@@ -974,7 +960,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>avg_pass_height</remote-name>
@@ -988,7 +973,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>crosses</remote-name>
@@ -1002,7 +986,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>73</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>set_piece_xg</remote-name>
@@ -1016,7 +999,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>corners</remote-name>
@@ -1030,7 +1012,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>65</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>throw_ins_into_box</remote-name>
@@ -1044,7 +1025,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>47</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xgd</remote-name>
@@ -1058,7 +1038,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ppda_inv</remote-name>
@@ -1072,7 +1051,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_possession</remote-name>
@@ -1086,7 +1064,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_field_tilt</remote-name>
@@ -1100,7 +1077,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_game_control_share</remote-name>
@@ -1114,7 +1090,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_ppda_inv</remote-name>
@@ -1128,7 +1103,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_high_recoveries</remote-name>
@@ -1142,7 +1116,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>76</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_on_ball_pressure_share</remote-name>
@@ -1156,7 +1129,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_off_ball_pressure_share</remote-name>
@@ -1170,7 +1142,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_xt</remote-name>
@@ -1184,7 +1155,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_passes_into_box</remote-name>
@@ -1198,7 +1168,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>78</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_shots_per_1_0_xt</remote-name>
@@ -1212,7 +1181,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_avg_pass_height</remote-name>
@@ -1226,7 +1194,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_crosses</remote-name>
@@ -1240,7 +1207,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>78</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_set_piece_xg</remote-name>
@@ -1254,7 +1220,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_corners</remote-name>
@@ -1268,7 +1233,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>77</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_throw_ins_into_box</remote-name>
@@ -1282,7 +1246,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>71</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>z_xgd</remote-name>
@@ -1296,7 +1259,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>80</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_possession</remote-name>
@@ -1310,7 +1272,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_field_tilt</remote-name>
@@ -1324,7 +1285,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_game_control_share</remote-name>
@@ -1338,7 +1298,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_ppda_inv</remote-name>
@@ -1352,7 +1311,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_high_recoveries</remote-name>
@@ -1366,7 +1324,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_on_ball_pressure_share</remote-name>
@@ -1380,7 +1337,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_off_ball_pressure_share</remote-name>
@@ -1394,7 +1350,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_xt</remote-name>
@@ -1408,7 +1363,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_passes_into_box</remote-name>
@@ -1422,7 +1376,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_shots_per_1_0_xt</remote-name>
@@ -1436,7 +1389,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_avg_pass_height</remote-name>
@@ -1450,7 +1402,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_crosses</remote-name>
@@ -1464,7 +1415,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_set_piece_xg</remote-name>
@@ -1478,7 +1428,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_corners</remote-name>
@@ -1492,7 +1441,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_throw_ins_into_box</remote-name>
@@ -1506,7 +1454,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>pct_xgd</remote-name>
@@ -1520,7 +1467,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>20</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[v_style_clustering_input.csv_7FB9F48AD155433DBD09BB4E6A162F3B]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -3329,12 +3275,20 @@
           </datasources>
           <datasource-dependencies datasource='federated.1duvdqf012wv041e9v8gg0k0jxo3'>
             <column datatype='integer' name='[goals_for]' role='measure' type='quantitative' />
+            <column-instance column='[season]' derivation='None' name='[none:season:nk]' pivot='key' type='nominal' />
             <column-instance column='[team_name]' derivation='None' name='[none:team_name:nk]' pivot='key' type='nominal' />
+            <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
             <column-instance column='[goals_for]' derivation='Sum' name='[sum:goals_for:qk]' pivot='key' type='quantitative' />
             <column-instance column='[xg]' derivation='Sum' name='[sum:xg:qk]' pivot='key' type='quantitative' />
             <column datatype='string' name='[team_name]' role='dimension' type='nominal' />
             <column datatype='real' name='[xg]' role='measure' type='quantitative' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.1duvdqf012wv041e9v8gg0k0jxo3].[none:season:nk]'>
+            <groupfilter function='level-members' level='[none:season:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1duvdqf012wv041e9v8gg0k0jxo3].[none:season:nk]</column>
+          </slices>
           <aggregation value='true' />
         </view>
         <style />
@@ -3396,10 +3350,16 @@
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1duvdqf012wv041e9v8gg0k0jxo3].[none:season:nk]' type='filter' />
+          </strip>
+        </edge>
       </cards>
       <viewpoint>
         <highlight>
           <color-one-way>
+            <field>[federated.1duvdqf012wv041e9v8gg0k0jxo3].[none:season:nk]</field>
             <field>[federated.1duvdqf012wv041e9v8gg0k0jxo3].[none:team_name:nk]</field>
           </color-one-way>
         </highlight>
