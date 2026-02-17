@@ -32,6 +32,6 @@ Build an end-to-end analytics project (SQL + Tableau) to analyze how team playin
 
 ## **Dashboards & Visualizations**
 The final interactive analysis can be found on my Tableau Public profile:
-👉 **[View the Premier League Tactical Analysis Dashboard]([https://public.tableau.com/app/profile/ant.nio.gouveia/viz/pl_21_25_analysis/Sheet1](https://public.tableau.com/app/profile/ant.nio.gouveia/viz/PL_21-25_final_analysis/Teanjourney_clusterevol))**
+👉 **[View the Premier League Tactical Analysis Dashboard](https://public.tableau.com/app/profile/ant.nio.gouveia/viz/PL_21-25_final_analysis/Teanjourney_clusterevol)**
 
 ---
